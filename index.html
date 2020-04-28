@@ -18,7 +18,46 @@
 
    <title>Dress To Impress At Crean</title>
 
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
 
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+</style>
  </head>
 
 
@@ -35,6 +74,15 @@
      <a href="#" class="btn btn-primary">More Information</a>
     </div>
   </div>
+    <div class="container">
+  <img src="https://cdn.shopify.com/s/files/1/1056/3042/products/Plaid_Skirt_1024x1024.jpg?v=1454268310" alt="Avatar" class="image" style="width:100%">
+  <div class="middle">
+  <a class="btn btn-primary" href="#" role="button">More Information</a>
+   <div class="card-body">
+
+    </div>
+  </div>
+      <h1 class="card-title text-center">Skirts</h1>
   <div class="card">
     <img class="card-img-top" src="..." alt="Card image cap">
     <div class="card-body">
