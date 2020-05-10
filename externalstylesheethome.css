@@ -18,3 +18,9 @@ color:#5DADE2
   top: 8px;
   right: 16px;
 }
+
+.topnextright {
+  position: absolute;
+  top: 8px;
+  right: 100px;
+}
