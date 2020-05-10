@@ -20,7 +20,7 @@ color:#5DADE2
 }
 
 .topnextright {
-  position: relative;
+  position: absolute;
   top: 8px;
   right: 100px;
 }
