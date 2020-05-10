@@ -15,12 +15,12 @@ color:#5DADE2
 
 .topright {
   position: absolute;
-  top: 8px;
+  top: 20px;
   right: 16px;
 }
 
 .topnextright {
-  position: absolute;
+  position: relative;
   top: 8px;
   right: 100px;
 }
