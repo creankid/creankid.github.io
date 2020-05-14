@@ -29,7 +29,6 @@ h2 {
   bottom: 50%;
 }
 
-img {
-  height:1000px;
-  width:1000px;
+img.resize {
+  height:500px;
 }
