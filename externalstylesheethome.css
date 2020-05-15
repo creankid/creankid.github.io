@@ -24,8 +24,23 @@ color:#5DADE2
   top: 8px;
  
 }
-img.resize {
+img.resizeskirt {
   width: 100%;
   height: auto;
 }
 
+img.resizepolo {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.resizejacket {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
